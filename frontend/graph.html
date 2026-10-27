@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Knowledge graph — InvestigateCelra</title>
+<link rel="icon" href="/assets/transitional-ui-logo.png">
+<link rel="stylesheet" href="/styles/tokens.css">
+<link rel="stylesheet" href="/styles/app.css">
+</head>
+<body class="popout">
+<header class="pop-head">
+  <img src="/assets/transitional-ui-logo.png" alt="">
+  <div>
+    <h1>Knowledge graph</h1>
+    <span id="pop-scale"></span>
+  </div>
+  <div class="seg" id="pop-layouts"></div>
+  <div class="seg">
+    <button type="button" id="pop-out">−</button>
+    <button type="button" id="pop-reset">Reset</button>
+    <button type="button" id="pop-in">+</button>
+  </div>
+  <div class="seg">
+    <button type="button" id="pop-contract">Contract</button>
+    <button type="button" id="pop-expand">Expand</button>
+    <button type="button" id="pop-all">Whole graph</button>
+  </div>
+  <div class="seg" id="pop-legend"></div>
+</header>
+<main class="pop-stage"><svg id="pop-svg" role="application" aria-label="Knowledge graph"></svg></main>
+<aside class="pop-detail" id="pop-detail"></aside>
+<script type="module" src="/js/popout.js"></script>
+</body>
+</html>

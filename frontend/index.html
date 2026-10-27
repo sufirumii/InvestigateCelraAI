@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>InvestigateCelra — Life Sciences Commercial Intelligence Desk</title>
+<meta name="description" content="A deterministic commercial-intelligence desk for life sciences. No models — auditable rules over public data.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" href="/assets/transitional-ui-logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300..600;1,6..72,300..500&family=Inter:wght@400;500;600;650;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles/tokens.css">
+<link rel="stylesheet" href="/styles/app.css">
+</head>
+<body>
+
+<!-- Splash: brand mark, untouched -->
+<div id="splash" role="status" aria-label="Loading InvestigateCelra">
+  <div class="splash-inner">
+    <img class="splash-mark" src="/assets/transitional-ui-logo.png" alt="">
+    <div class="splash-word">InvestigateCelra</div>
+    <div class="splash-sub">Life sciences commercial intelligence</div>
+    <div class="splash-bar"><i></i></div>
+  </div>
+</div>
+
+<!-- Sign-in: who is reading, and what they want ranked first -->
+<div id="onboard" class="hidden" role="dialog" aria-modal="true" aria-labelledby="ob-title">
+  <div class="ob-card">
+    <img class="ob-mark" src="/assets/excelra-logo.png" alt="Excelra">
+    <div class="ob-steps" id="ob-steps"></div>
+    <div class="ob-body" id="ob-body"></div>
+    <div class="ob-foot">
+      <button class="btn ghost" type="button" id="ob-back">Back</button>
+      <div class="ob-progress" id="ob-progress"></div>
+      <button class="btn" type="button" id="ob-next">Continue</button>
+    </div>
+  </div>
+</div>
+
+<!-- Configuration playback, shown while the desk re-ranks -->
+<div id="configuring" class="hidden" role="status">
+  <div class="cfg-card">
+    <img class="cfg-mark" src="/assets/excelra-logo.png" alt="Excelra">
+    <div class="cfg-greet" id="cfg-greet"></div>
+    <ul class="cfg-lines" id="cfg-lines"></ul>
+    <div class="cfg-bar"><i></i></div>
+  </div>
+</div>
+
+<!-- Optional access gate -->
+<div id="gate" class="hidden">
+  <form class="gate-card" id="gate-form">
+    <img src="/assets/excelra-logo.png" alt="Excelra">
+    <div>
+      <h1 style="font-family:var(--serif);font-size:var(--t-xl);letter-spacing:-.03em;font-weight:500">Restricted desk</h1>
+      <p style="color:var(--ink-soft);font-size:var(--t-sm);margin-top:6px">Enter the access code issued to your team.</p>
+    </div>
+    <input id="gate-input" type="password" placeholder="Access code" autocomplete="off" required>
+    <div class="gate-err" id="gate-err"></div>
+    <button class="btn" type="submit">Open the desk</button>
+  </form>
+</div>
+
+<div id="shell" class="hidden">
+  <aside class="rail">
+    <img class="rail-logo" src="/assets/excelra-logo.png" alt="Excelra">
+    <div class="rail-title">InvestigateCelra<span>Commercial intelligence desk</span></div>
+    <nav id="nav" aria-label="Sections"></nav>
+    <div class="rail-foot">
+      <button class="btn ghost small" id="refresh-btn">Refresh sources</button>
+      <div class="rail-status" id="rail-status"></div>
+    </div>
+  </aside>
+
+  <main id="view" tabindex="-1"></main>
+</div>
+
+<div id="scrim"></div>
+<aside id="reader" aria-label="Story analysis" aria-hidden="true">
+  <div class="reader-bar">
+    <span class="chip violet" id="reader-tag">Story</span>
+    <button class="x" id="reader-close" aria-label="Close">
+      <svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 3l10 10M13 3L3 13"/></svg>
+    </button>
+  </div>
+  <div class="reader-body" id="reader-body"></div>
+</aside>
+
+<div id="palette">
+  <div class="pal-box">
+    <input id="pal-input" placeholder="Search companies, targets, indications, stories…" autocomplete="off">
+    <div class="pal-results" id="pal-results"></div>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script type="module" src="/js/app.js"></script>
+</body>
+</html>

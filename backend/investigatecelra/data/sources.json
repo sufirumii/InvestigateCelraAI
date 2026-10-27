@@ -1,0 +1,42 @@
+{
+ "_note": "Every source below is public and keyless. Adding a feed here is the only step needed to widen coverage.",
+ "feeds": [
+  {"id": "fda-press", "name": "FDA Press Announcements", "tier": "regulator", "type": "rss", "url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/press-releases/rss.xml"},
+  {"id": "fda-drugs", "name": "FDA Drug Approvals & Databases", "tier": "regulator", "type": "rss", "url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/drugs/rss.xml"},
+  {"id": "ema-news", "name": "European Medicines Agency News", "tier": "regulator", "type": "rss", "url": "https://www.ema.europa.eu/en/rss/news.xml"},
+  {"id": "nih-news", "name": "NIH News Releases", "tier": "regulator", "type": "rss", "url": "https://www.nih.gov/news-events/news-releases/feed.xml"},
+  {"id": "fierce-biotech", "name": "Fierce Biotech", "tier": "trade", "type": "rss", "url": "https://www.fiercebiotech.com/rss/xml"},
+  {"id": "fierce-pharma", "name": "Fierce Pharma", "tier": "trade", "type": "rss", "url": "https://www.fiercepharma.com/rss/xml"},
+  {"id": "biospace", "name": "BioSpace", "tier": "trade", "type": "rss", "url": "https://www.biospace.com/rss/news/"},
+  {"id": "pharmatimes", "name": "PharmaTimes", "tier": "trade", "type": "rss", "url": "https://pharmatimes.com/feed/"},
+  {"id": "nature-biotech", "name": "Nature Biotechnology", "tier": "journal", "type": "rss", "url": "https://www.nature.com/nbt.rss"},
+  {"id": "nature-reviews-dd", "name": "Nature Reviews Drug Discovery", "tier": "journal", "type": "rss", "url": "https://www.nature.com/nrd.rss"},
+  {"id": "biorxiv-pharm", "name": "bioRxiv Pharmacology & Toxicology", "tier": "journal", "type": "rss", "url": "https://connect.biorxiv.org/biorxiv_xml.php?subject=pharmacology_and_toxicology"}
+ ],
+ "apis": [
+  {
+   "id": "clinicaltrials",
+   "name": "ClinicalTrials.gov",
+   "tier": "registry",
+   "type": "clinicaltrials_v2",
+   "url": "https://clinicaltrials.gov/api/v2/studies",
+   "notes": "API v2, no key required. Queried per watchlist company as sponsor."
+  },
+  {
+   "id": "pubmed",
+   "name": "PubMed (NCBI E-utilities)",
+   "tier": "journal",
+   "type": "pubmed",
+   "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils",
+   "notes": "esearch + esummary. Keyless at low request rates."
+  },
+  {
+   "id": "stooq",
+   "name": "Stooq end-of-day prices",
+   "tier": "filing",
+   "type": "stooq",
+   "url": "https://stooq.com/q/d/l/",
+   "notes": "Free CSV endpoint for listed tickers. Used only to overlay real equity prices where a watchlist company is public."
+  }
+ ]
+}

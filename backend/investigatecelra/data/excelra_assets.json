@@ -1,0 +1,211 @@
+{
+ "_note": "Capability descriptions summarised from Excelra's public product and service pages. Used only as a rule-matching table: an item is linked to an asset when the trigger conditions below match. No inference, no model.",
+ "assets": [
+  {
+   "id": "gostar",
+   "name": "GOSTAR",
+   "full_name": "Global Online Structure Activity Relationship database",
+   "summary": "Expert-curated structure–activity relationship data across global small-molecule chemical space, linking chemical structure to measured biological activity.",
+   "supports": "Hit finding, lead optimisation, competitor scaffold benchmarking and patent-landscape analysis.",
+   "triggers": {
+    "event_types": [
+     "readout_positive",
+     "trial_progress",
+     "ip_patent",
+     "repurposing",
+     "regulatory_approval"
+    ],
+    "entity_kinds": [
+     "target"
+    ],
+    "keywords": [
+     "small molecule",
+     "inhibitor",
+     "degrader",
+     "molecular glue",
+     "sar",
+     "scaffold",
+     "medicinal chemistry",
+     "patent",
+     "series",
+     "potency",
+     "selectivity",
+     "chemical space"
+    ],
+    "modalities": [
+     "small molecule",
+     "targeted protein degrader",
+     "molecular glue",
+     "peptide therapeutic"
+    ]
+   },
+   "contribution": "Benchmark the disclosed chemotype against curated SAR for the same target class and surface competing series, freedom-to-operate pressure points and selectivity liabilities.",
+   "value": "Answers 'is this chemistry actually differentiated?' in hours instead of a multi-week manual literature and patent review."
+  },
+  {
+   "id": "gobiom",
+   "name": "GOBIOM",
+   "full_name": "Global Online Biomarker database",
+   "summary": "Manually curated biomarker database spanning pre-clinical, clinical and exploratory biomarkers across therapy areas.",
+   "supports": "Biomarker strategy, patient stratification, endpoint selection and companion-diagnostic planning.",
+   "triggers": {
+    "event_types": [
+     "trial_failure",
+     "readout_positive",
+     "trial_progress",
+     "safety_event",
+     "publication"
+    ],
+    "entity_kinds": [
+     "indication"
+    ],
+    "keywords": [
+     "biomarker",
+     "stratification",
+     "companion diagnostic",
+     "patient selection",
+     "endpoint",
+     "responder",
+     "subgroup",
+     "enrichment",
+     "surrogate",
+     "progression-free",
+     "overall survival"
+    ],
+    "modalities": []
+   },
+   "contribution": "Compare the endpoint and stratification strategy against curated biomarker precedent in the same indication to explain why a readout landed where it did.",
+   "value": "Turns a competitor's endpoint miss into a reusable design lesson for a client's own protocol."
+  },
+  {
+   "id": "curation",
+   "name": "Data Curation & FAIRification",
+   "full_name": "Expert data curation and FAIR data services",
+   "summary": "Manual and semi-automated curation that turns fragmented public and proprietary life-sciences data into interoperable, analysis-ready assets.",
+   "supports": "Building trustworthy internal data layers for analytics, reporting and downstream modelling.",
+   "triggers": {
+    "event_types": [
+     "platform_ai",
+     "publication",
+     "partnership",
+     "ma_activity",
+     "repurposing",
+     "ip_patent"
+    ],
+    "entity_kinds": [
+     "technology",
+     "company"
+    ],
+    "keywords": [
+     "data",
+     "fair",
+     "harmonisation",
+     "harmonization",
+     "ontology",
+     "interoperable",
+     "integration",
+     "curated",
+     "dataset",
+     "database",
+     "real-world",
+     "registry",
+     "unstructured",
+     "knowledge graph",
+     "graph",
+     "network",
+     "landscape",
+     "alliance",
+     "consortium",
+     "ecosystem",
+     "portfolio",
+     "repurposing",
+     "connected"
+    ],
+    "modalities": []
+   },
+   "contribution": "Scope the curation layer this kind of programme depends on: source coverage, ontology mapping, provenance and refresh cadence.",
+   "value": "Removes the hidden data-preparation cost that sits under every analytics or discovery initiative."
+  },
+  {
+   "id": "bioinformatics",
+   "name": "Bioinformatics & Multiomics",
+   "full_name": "Bioinformatics services and multiomics analysis",
+   "summary": "Disease-landscape analysis, NGS and multiomics pipeline development, and translational data interpretation.",
+   "supports": "Target identification, mechanism-of-action work and translational programmes.",
+   "triggers": {
+    "event_types": [
+     "platform_ai",
+     "publication",
+     "partnership",
+     "trial_progress"
+    ],
+    "entity_kinds": [
+     "target"
+    ],
+    "keywords": [
+     "multiomics",
+     "multi-omics",
+     "genomics",
+     "proteomics",
+     "transcriptomics",
+     "metabolomics",
+     "single-cell",
+     "spatial",
+     "sequencing",
+     "ngs",
+     "pathway",
+     "mechanism",
+     "target identification"
+    ],
+    "modalities": [
+     "siRNA",
+     "antisense oligonucleotide",
+     "AAV gene therapy",
+     "CRISPR",
+     "base editing",
+     "prime editing"
+    ]
+   },
+   "contribution": "Rebuild the omics evidence chain behind the claim and test whether the target rationale holds across independent public datasets.",
+   "value": "Independent validation of a competitor's target thesis before a client commits capital to the same biology."
+  },
+  {
+   "id": "cx_analytics",
+   "name": "Commercial & Pipeline Analytics",
+   "full_name": "Commercial analytics and competitive-intelligence support",
+   "summary": "Structured tracking of competitor pipelines, trial activity and strategic moves for commercial and medical teams.",
+   "supports": "Portfolio reviews, launch planning and medical-information readiness.",
+   "triggers": {
+    "event_types": [
+     "ma_activity",
+     "financing",
+     "restructuring",
+     "regulatory_approval",
+     "regulatory_rejection",
+     "program_discontinuation"
+    ],
+    "entity_kinds": [
+     "company"
+    ],
+    "keywords": [
+     "market",
+     "launch",
+     "commercial",
+     "guidance",
+     "revenue",
+     "share",
+     "payer",
+     "reimbursement",
+     "pricing",
+     "acquisition",
+     "divest",
+     "restructuring",
+     "layoff"
+    ],
+    "modalities": []
+   },
+   "contribution": "Translate the event into portfolio impact: which competing assets gain room, which lose it, and what the medical-information team should expect to field.",
+   "value": "Gives commercial and medical teams the same evidence base on the same day the news lands."
+  }
+ ]
+}

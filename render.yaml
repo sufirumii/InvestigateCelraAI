@@ -1,0 +1,27 @@
+# Render blueprint. Push this repository, then New → Blueprint on Render.
+services:
+  - type: web
+    name: investigatecelra
+    runtime: python
+    plan: free
+    region: oregon
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn investigatecelra.main:app --host 0.0.0.0 --port $PORT --app-dir backend
+    healthCheckPath: /api/health
+    autoDeploy: true
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.12.4"
+      # Render's free disk is ephemeral; the desk simply refetches on boot.
+      - key: DATABASE_PATH
+        value: /tmp/investigatecelra.db
+      - key: ALLOW_NETWORK
+        value: "true"
+      - key: HTTP_TIMEOUT
+        value: "20"
+      - key: MAX_ITEMS_PER_SOURCE
+        value: "40"
+      - key: HTTP_USER_AGENT
+        sync: false
+      - key: ACCESS_CODE
+        sync: false

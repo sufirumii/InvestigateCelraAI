@@ -1,0 +1,2230 @@
+{
+ "entities": [
+  {
+   "id": "company:pfizer",
+   "name": "Pfizer",
+   "kind": "company",
+   "subtype": "big_pharma",
+   "aliases": [],
+   "meta": {
+    "coverage": "core",
+    "ticker": "PFE"
+   }
+  },
+  {
+   "id": "company:novartis",
+   "name": "Novartis",
+   "kind": "company",
+   "subtype": "big_pharma",
+   "aliases": [],
+   "meta": {
+    "coverage": "core",
+    "ticker": "NVS"
+   }
+  },
+  {
+   "id": "company:roche",
+   "name": "Roche",
+   "kind": "company",
+   "subtype": "big_pharma",
+   "aliases": [
+    "Genentech"
+   ],
+   "meta": {
+    "coverage": "core",
+    "ticker": "ROG.SW"
+   }
+  },
+  {
+   "id": "company:astrazeneca",
+   "name": "AstraZeneca",
+   "kind": "company",
+   "subtype": "big_pharma",
+   "aliases": [
+    "AZ"
+   ],
+   "meta": {
+    "coverage": "core",
+    "ticker": "AZN"
+   }
+  },
+  {
+   "id": "company:merck-and-co",
+   "name": "Merck & Co",
+   "kind": "company",
+   "subtype": "big_pharma",
+   "aliases": [
+    "Merck",
+    "MSD"
+   ],
+   "meta": {
+    "coverage": "core",
+    "ticker": "MRK"
+   }
+  },
+  {
+   "id": "company:gsk",
+   "name": "GSK",
+   "kind": "company",
+   "subtype": "big_pharma",
+   "aliases": [
+    "GlaxoSmithKline"
+   ],
+   "meta": {
+    "coverage": "core",
+    "ticker": "GSK"
+   }
+  },
+  {
+   "id": "company:sanofi",
+   "name": "Sanofi",
+   "kind": "company",
+   "subtype": "big_pharma",
+   "aliases": [],
+   "meta": {
+    "coverage": "core",
+    "ticker": "SNY"
+   }
+  },
+  {
+   "id": "company:eli-lilly",
+   "name": "Eli Lilly",
+   "kind": "company",
+   "subtype": "big_pharma",
+   "aliases": [
+    "Lilly"
+   ],
+   "meta": {
+    "coverage": "core",
+    "ticker": "LLY"
+   }
+  },
+  {
+   "id": "company:bristol-myers-squibb",
+   "name": "Bristol Myers Squibb",
+   "kind": "company",
+   "subtype": "big_pharma",
+   "aliases": [
+    "BMS",
+    "Bristol-Myers Squibb"
+   ],
+   "meta": {
+    "coverage": "core",
+    "ticker": "BMY"
+   }
+  },
+  {
+   "id": "company:johnson-and-johnson",
+   "name": "Johnson & Johnson",
+   "kind": "company",
+   "subtype": "big_pharma",
+   "aliases": [
+    "J&J",
+    "Janssen"
+   ],
+   "meta": {
+    "coverage": "core",
+    "ticker": "JNJ"
+   }
+  },
+  {
+   "id": "company:abbvie",
+   "name": "AbbVie",
+   "kind": "company",
+   "subtype": "big_pharma",
+   "aliases": [],
+   "meta": {
+    "coverage": "core",
+    "ticker": "ABBV"
+   }
+  },
+  {
+   "id": "company:amgen",
+   "name": "Amgen",
+   "kind": "company",
+   "subtype": "big_pharma",
+   "aliases": [],
+   "meta": {
+    "coverage": "core",
+    "ticker": "AMGN"
+   }
+  },
+  {
+   "id": "company:gilead-sciences",
+   "name": "Gilead Sciences",
+   "kind": "company",
+   "subtype": "big_pharma",
+   "aliases": [
+    "Gilead"
+   ],
+   "meta": {
+    "coverage": "core",
+    "ticker": "GILD"
+   }
+  },
+  {
+   "id": "company:novo-nordisk",
+   "name": "Novo Nordisk",
+   "kind": "company",
+   "subtype": "big_pharma",
+   "aliases": [],
+   "meta": {
+    "coverage": "core",
+    "ticker": "NVO"
+   }
+  },
+  {
+   "id": "company:takeda",
+   "name": "Takeda",
+   "kind": "company",
+   "subtype": "big_pharma",
+   "aliases": [],
+   "meta": {
+    "coverage": "core",
+    "ticker": "TAK"
+   }
+  },
+  {
+   "id": "company:bayer",
+   "name": "Bayer",
+   "kind": "company",
+   "subtype": "big_pharma",
+   "aliases": [],
+   "meta": {
+    "coverage": "core",
+    "ticker": "BAYN.DE"
+   }
+  },
+  {
+   "id": "company:boehringer-ingelheim",
+   "name": "Boehringer Ingelheim",
+   "kind": "company",
+   "subtype": "big_pharma",
+   "aliases": [],
+   "meta": {
+    "coverage": "core"
+   }
+  },
+  {
+   "id": "company:daiichi-sankyo",
+   "name": "Daiichi Sankyo",
+   "kind": "company",
+   "subtype": "big_pharma",
+   "aliases": [],
+   "meta": {
+    "coverage": "core",
+    "ticker": "4568.T"
+   }
+  },
+  {
+   "id": "company:astellas",
+   "name": "Astellas",
+   "kind": "company",
+   "subtype": "big_pharma",
+   "aliases": [],
+   "meta": {
+    "coverage": "core",
+    "ticker": "4503.T"
+   }
+  },
+  {
+   "id": "company:eisai",
+   "name": "Eisai",
+   "kind": "company",
+   "subtype": "big_pharma",
+   "aliases": [],
+   "meta": {
+    "coverage": "core",
+    "ticker": "4523.T"
+   }
+  },
+  {
+   "id": "company:biogen",
+   "name": "Biogen",
+   "kind": "company",
+   "subtype": "biotech",
+   "aliases": [],
+   "meta": {
+    "coverage": "core",
+    "ticker": "BIIB"
+   }
+  },
+  {
+   "id": "company:vertex-pharmaceuticals",
+   "name": "Vertex Pharmaceuticals",
+   "kind": "company",
+   "subtype": "biotech",
+   "aliases": [
+    "Vertex"
+   ],
+   "meta": {
+    "coverage": "core",
+    "ticker": "VRTX"
+   }
+  },
+  {
+   "id": "company:regeneron",
+   "name": "Regeneron",
+   "kind": "company",
+   "subtype": "biotech",
+   "aliases": [],
+   "meta": {
+    "coverage": "core",
+    "ticker": "REGN"
+   }
+  },
+  {
+   "id": "company:moderna",
+   "name": "Moderna",
+   "kind": "company",
+   "subtype": "biotech",
+   "aliases": [],
+   "meta": {
+    "coverage": "core",
+    "ticker": "MRNA"
+   }
+  },
+  {
+   "id": "company:biontech",
+   "name": "BioNTech",
+   "kind": "company",
+   "subtype": "biotech",
+   "aliases": [],
+   "meta": {
+    "coverage": "core",
+    "ticker": "BNTX"
+   }
+  },
+  {
+   "id": "company:alnylam",
+   "name": "Alnylam",
+   "kind": "company",
+   "subtype": "biotech",
+   "aliases": [],
+   "meta": {
+    "coverage": "core",
+    "ticker": "ALNY"
+   }
+  },
+  {
+   "id": "company:ionis-pharmaceuticals",
+   "name": "Ionis Pharmaceuticals",
+   "kind": "company",
+   "subtype": "biotech",
+   "aliases": [
+    "Ionis"
+   ],
+   "meta": {
+    "coverage": "core",
+    "ticker": "IONS"
+   }
+  },
+  {
+   "id": "company:beigene",
+   "name": "BeiGene",
+   "kind": "company",
+   "subtype": "biotech",
+   "aliases": [],
+   "meta": {
+    "coverage": "core",
+    "ticker": "ONC"
+   }
+  },
+  {
+   "id": "company:legend-biotech",
+   "name": "Legend Biotech",
+   "kind": "company",
+   "subtype": "biotech",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "company:arcus-biosciences",
+   "name": "Arcus Biosciences",
+   "kind": "company",
+   "subtype": "biotech",
+   "aliases": [
+    "Arcus"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "company:revolution-medicines",
+   "name": "Revolution Medicines",
+   "kind": "company",
+   "subtype": "biotech",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "company:nuvalent",
+   "name": "Nuvalent",
+   "kind": "company",
+   "subtype": "biotech",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "company:insmed",
+   "name": "Insmed",
+   "kind": "company",
+   "subtype": "biotech",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "company:apellis",
+   "name": "Apellis",
+   "kind": "company",
+   "subtype": "biotech",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "company:argenx",
+   "name": "argenx",
+   "kind": "company",
+   "subtype": "biotech",
+   "aliases": [],
+   "meta": {
+    "coverage": "core",
+    "ticker": "ARGX"
+   }
+  },
+  {
+   "id": "company:zealand-pharma",
+   "name": "Zealand Pharma",
+   "kind": "company",
+   "subtype": "biotech",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "company:structure-therapeutics",
+   "name": "Structure Therapeutics",
+   "kind": "company",
+   "subtype": "biotech",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "company:viking-therapeutics",
+   "name": "Viking Therapeutics",
+   "kind": "company",
+   "subtype": "biotech",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "company:crispr-therapeutics",
+   "name": "CRISPR Therapeutics",
+   "kind": "company",
+   "subtype": "biotech",
+   "aliases": [],
+   "meta": {
+    "coverage": "core",
+    "ticker": "CRSP"
+   }
+  },
+  {
+   "id": "company:intellia-therapeutics",
+   "name": "Intellia Therapeutics",
+   "kind": "company",
+   "subtype": "biotech",
+   "aliases": [
+    "Intellia"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "company:beam-therapeutics",
+   "name": "Beam Therapeutics",
+   "kind": "company",
+   "subtype": "biotech",
+   "aliases": [
+    "Beam"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "company:prime-medicine",
+   "name": "Prime Medicine",
+   "kind": "company",
+   "subtype": "biotech",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "company:sarepta-therapeutics",
+   "name": "Sarepta Therapeutics",
+   "kind": "company",
+   "subtype": "biotech",
+   "aliases": [
+    "Sarepta"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "company:recursion-pharmaceuticals",
+   "name": "Recursion Pharmaceuticals",
+   "kind": "company",
+   "subtype": "ai_discovery",
+   "aliases": [
+    "Recursion"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "company:exscientia",
+   "name": "Exscientia",
+   "kind": "company",
+   "subtype": "ai_discovery",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "company:insilico-medicine",
+   "name": "Insilico Medicine",
+   "kind": "company",
+   "subtype": "ai_discovery",
+   "aliases": [
+    "Insilico"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "company:isomorphic-labs",
+   "name": "Isomorphic Labs",
+   "kind": "company",
+   "subtype": "ai_discovery",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "company:schrodinger",
+   "name": "Schrodinger",
+   "kind": "company",
+   "subtype": "ai_discovery",
+   "aliases": [
+    "Schrödinger"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "company:relay-therapeutics",
+   "name": "Relay Therapeutics",
+   "kind": "company",
+   "subtype": "ai_discovery",
+   "aliases": [
+    "Relay"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "company:iambic-therapeutics",
+   "name": "Iambic Therapeutics",
+   "kind": "company",
+   "subtype": "ai_discovery",
+   "aliases": [
+    "Iambic"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "company:genesis-therapeutics",
+   "name": "Genesis Therapeutics",
+   "kind": "company",
+   "subtype": "ai_discovery",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "company:chai-discovery",
+   "name": "Chai Discovery",
+   "kind": "company",
+   "subtype": "ai_discovery",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "company:cradle-bio",
+   "name": "Cradle Bio",
+   "kind": "company",
+   "subtype": "ai_discovery",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "company:benevolentai",
+   "name": "BenevolentAI",
+   "kind": "company",
+   "subtype": "ai_discovery",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "company:tempus-ai",
+   "name": "Tempus AI",
+   "kind": "company",
+   "subtype": "data_analytics",
+   "aliases": [
+    "Tempus"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "company:certara",
+   "name": "Certara",
+   "kind": "company",
+   "subtype": "data_analytics",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "company:simulations-plus",
+   "name": "Simulations Plus",
+   "kind": "company",
+   "subtype": "data_analytics",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "company:iqvia",
+   "name": "IQVIA",
+   "kind": "company",
+   "subtype": "cro_data",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "company:clarivate",
+   "name": "Clarivate",
+   "kind": "company",
+   "subtype": "cro_data",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "company:elsevier",
+   "name": "Elsevier",
+   "kind": "company",
+   "subtype": "cro_data",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "company:veeva-systems",
+   "name": "Veeva Systems",
+   "kind": "company",
+   "subtype": "cro_data",
+   "aliases": [
+    "Veeva"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "company:medidata",
+   "name": "Medidata",
+   "kind": "company",
+   "subtype": "cro_data",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "company:dotmatics",
+   "name": "Dotmatics",
+   "kind": "company",
+   "subtype": "cro_data",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "company:benchling",
+   "name": "Benchling",
+   "kind": "company",
+   "subtype": "cro_data",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "company:parexel",
+   "name": "Parexel",
+   "kind": "company",
+   "subtype": "cro",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "company:icon-plc",
+   "name": "ICON plc",
+   "kind": "company",
+   "subtype": "cro",
+   "aliases": [
+    "ICON"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "company:charles-river-laboratories",
+   "name": "Charles River Laboratories",
+   "kind": "company",
+   "subtype": "cro",
+   "aliases": [
+    "Charles River"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "company:evotec",
+   "name": "Evotec",
+   "kind": "company",
+   "subtype": "cro",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "company:wuxi-apptec",
+   "name": "WuXi AppTec",
+   "kind": "company",
+   "subtype": "cdmo",
+   "aliases": [
+    "WuXi"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "company:lonza",
+   "name": "Lonza",
+   "kind": "company",
+   "subtype": "cdmo",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "company:samsung-biologics",
+   "name": "Samsung Biologics",
+   "kind": "company",
+   "subtype": "cdmo",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "company:illumina",
+   "name": "Illumina",
+   "kind": "company",
+   "subtype": "omics",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "company:oxford-nanopore",
+   "name": "Oxford Nanopore",
+   "kind": "company",
+   "subtype": "omics",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "company:10x-genomics",
+   "name": "10x Genomics",
+   "kind": "company",
+   "subtype": "omics",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "company:olink",
+   "name": "Olink",
+   "kind": "company",
+   "subtype": "omics",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "company:somalogic",
+   "name": "SomaLogic",
+   "kind": "company",
+   "subtype": "omics",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "company:guardant-health",
+   "name": "Guardant Health",
+   "kind": "company",
+   "subtype": "diagnostics",
+   "aliases": [
+    "Guardant"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "company:natera",
+   "name": "Natera",
+   "kind": "company",
+   "subtype": "diagnostics",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "company:foundation-medicine",
+   "name": "Foundation Medicine",
+   "kind": "company",
+   "subtype": "diagnostics",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "company:exact-sciences",
+   "name": "Exact Sciences",
+   "kind": "company",
+   "subtype": "diagnostics",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "company:excelra",
+   "name": "Excelra",
+   "kind": "company",
+   "subtype": "internal",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "target:egfr",
+   "name": "EGFR",
+   "kind": "target",
+   "subtype": "",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "target:kras",
+   "name": "KRAS",
+   "kind": "target",
+   "subtype": "",
+   "aliases": [
+    "KRAS G12C",
+    "KRAS G12D"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "target:her2",
+   "name": "HER2",
+   "kind": "target",
+   "subtype": "",
+   "aliases": [
+    "ERBB2"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "target:pd-1",
+   "name": "PD-1",
+   "kind": "target",
+   "subtype": "",
+   "aliases": [
+    "PD1",
+    "pembrolizumab target"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "target:pd-l1",
+   "name": "PD-L1",
+   "kind": "target",
+   "subtype": "",
+   "aliases": [
+    "PDL1"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "target:ctla-4",
+   "name": "CTLA-4",
+   "kind": "target",
+   "subtype": "",
+   "aliases": [
+    "CTLA4"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "target:btk",
+   "name": "BTK",
+   "kind": "target",
+   "subtype": "",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "target:jak1",
+   "name": "JAK1",
+   "kind": "target",
+   "subtype": "",
+   "aliases": [
+    "JAK2",
+    "JAK"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "target:alk",
+   "name": "ALK",
+   "kind": "target",
+   "subtype": "",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "target:braf",
+   "name": "BRAF",
+   "kind": "target",
+   "subtype": "",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "target:mek",
+   "name": "MEK",
+   "kind": "target",
+   "subtype": "",
+   "aliases": [
+    "MEK1"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "target:cdk4/6",
+   "name": "CDK4/6",
+   "kind": "target",
+   "subtype": "",
+   "aliases": [
+    "CDK4",
+    "CDK6"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "target:cdk7",
+   "name": "CDK7",
+   "kind": "target",
+   "subtype": "",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "target:parp",
+   "name": "PARP",
+   "kind": "target",
+   "subtype": "",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "target:vegf",
+   "name": "VEGF",
+   "kind": "target",
+   "subtype": "",
+   "aliases": [
+    "VEGFR"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "target:tnf-alpha",
+   "name": "TNF-alpha",
+   "kind": "target",
+   "subtype": "",
+   "aliases": [
+    "TNF"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "target:il-23",
+   "name": "IL-23",
+   "kind": "target",
+   "subtype": "",
+   "aliases": [
+    "IL23"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "target:il-17",
+   "name": "IL-17",
+   "kind": "target",
+   "subtype": "",
+   "aliases": [
+    "IL17"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "target:il-4r",
+   "name": "IL-4R",
+   "kind": "target",
+   "subtype": "",
+   "aliases": [
+    "IL4R"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "target:tslp",
+   "name": "TSLP",
+   "kind": "target",
+   "subtype": "",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "target:glp-1",
+   "name": "GLP-1",
+   "kind": "target",
+   "subtype": "",
+   "aliases": [
+    "GLP1"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "target:gip",
+   "name": "GIP",
+   "kind": "target",
+   "subtype": "",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "target:amylin",
+   "name": "amylin",
+   "kind": "target",
+   "subtype": "",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "target:sglt2",
+   "name": "SGLT2",
+   "kind": "target",
+   "subtype": "",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "target:pcsk9",
+   "name": "PCSK9",
+   "kind": "target",
+   "subtype": "",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "target:lp(a)",
+   "name": "Lp(a)",
+   "kind": "target",
+   "subtype": "",
+   "aliases": [
+    "lipoprotein(a)"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "target:factor-xi",
+   "name": "Factor XI",
+   "kind": "target",
+   "subtype": "",
+   "aliases": [
+    "FXI"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "target:complement-c5",
+   "name": "Complement C5",
+   "kind": "target",
+   "subtype": "",
+   "aliases": [
+    "C5"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "target:complement-c3",
+   "name": "Complement C3",
+   "kind": "target",
+   "subtype": "",
+   "aliases": [
+    "C3"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "target:bcma",
+   "name": "BCMA",
+   "kind": "target",
+   "subtype": "",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "target:cd19",
+   "name": "CD19",
+   "kind": "target",
+   "subtype": "",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "target:cd20",
+   "name": "CD20",
+   "kind": "target",
+   "subtype": "",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "target:cd3",
+   "name": "CD3",
+   "kind": "target",
+   "subtype": "",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "target:cd47",
+   "name": "CD47",
+   "kind": "target",
+   "subtype": "",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "target:claudin-18.2",
+   "name": "Claudin 18.2",
+   "kind": "target",
+   "subtype": "",
+   "aliases": [
+    "CLDN18.2"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "target:trop2",
+   "name": "TROP2",
+   "kind": "target",
+   "subtype": "",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "target:nectin-4",
+   "name": "Nectin-4",
+   "kind": "target",
+   "subtype": "",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "target:fgfr",
+   "name": "FGFR",
+   "kind": "target",
+   "subtype": "",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "target:met",
+   "name": "MET",
+   "kind": "target",
+   "subtype": "",
+   "aliases": [
+    "c-Met"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "target:ret",
+   "name": "RET",
+   "kind": "target",
+   "subtype": "",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "target:ntrk",
+   "name": "NTRK",
+   "kind": "target",
+   "subtype": "",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "target:pi3k",
+   "name": "PI3K",
+   "kind": "target",
+   "subtype": "",
+   "aliases": [
+    "PIK3CA"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "target:akt",
+   "name": "AKT",
+   "kind": "target",
+   "subtype": "",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "target:mtor",
+   "name": "mTOR",
+   "kind": "target",
+   "subtype": "",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "target:sting",
+   "name": "STING",
+   "kind": "target",
+   "subtype": "",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "target:tigit",
+   "name": "TIGIT",
+   "kind": "target",
+   "subtype": "",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "target:lag-3",
+   "name": "LAG-3",
+   "kind": "target",
+   "subtype": "",
+   "aliases": [
+    "LAG3"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "target:shp2",
+   "name": "SHP2",
+   "kind": "target",
+   "subtype": "",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "target:sos1",
+   "name": "SOS1",
+   "kind": "target",
+   "subtype": "",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "target:menin",
+   "name": "menin",
+   "kind": "target",
+   "subtype": "",
+   "aliases": [
+    "KMT2A"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "target:prmt5",
+   "name": "PRMT5",
+   "kind": "target",
+   "subtype": "",
+   "aliases": [
+    "MTAP"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "target:wrn",
+   "name": "WRN",
+   "kind": "target",
+   "subtype": "",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "target:hif-2alpha",
+   "name": "HIF-2alpha",
+   "kind": "target",
+   "subtype": "",
+   "aliases": [
+    "HIF-2α"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "target:kat6a",
+   "name": "KAT6A",
+   "kind": "target",
+   "subtype": "",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "target:lrrk2",
+   "name": "LRRK2",
+   "kind": "target",
+   "subtype": "",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "target:tau",
+   "name": "tau",
+   "kind": "target",
+   "subtype": "",
+   "aliases": [
+    "MAPT"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "target:amyloid-beta",
+   "name": "amyloid beta",
+   "kind": "target",
+   "subtype": "",
+   "aliases": [
+    "amyloid-beta",
+    "Abeta"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "target:trem2",
+   "name": "TREM2",
+   "kind": "target",
+   "subtype": "",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "target:alpha-synuclein",
+   "name": "alpha-synuclein",
+   "kind": "target",
+   "subtype": "",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "target:huntingtin",
+   "name": "huntingtin",
+   "kind": "target",
+   "subtype": "",
+   "aliases": [
+    "HTT"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "target:dystrophin",
+   "name": "dystrophin",
+   "kind": "target",
+   "subtype": "",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "target:cftr",
+   "name": "CFTR",
+   "kind": "target",
+   "subtype": "",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "target:fcrn",
+   "name": "FcRn",
+   "kind": "target",
+   "subtype": "",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "target:baff",
+   "name": "BAFF",
+   "kind": "target",
+   "subtype": "",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "target:cgrp",
+   "name": "CGRP",
+   "kind": "target",
+   "subtype": "",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "indication:non-small-cell-lung-cancer",
+   "name": "non-small cell lung cancer",
+   "kind": "indication",
+   "subtype": "oncology",
+   "aliases": [
+    "NSCLC"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "indication:small-cell-lung-cancer",
+   "name": "small cell lung cancer",
+   "kind": "indication",
+   "subtype": "oncology",
+   "aliases": [
+    "SCLC"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "indication:breast-cancer",
+   "name": "breast cancer",
+   "kind": "indication",
+   "subtype": "oncology",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "indication:colorectal-cancer",
+   "name": "colorectal cancer",
+   "kind": "indication",
+   "subtype": "oncology",
+   "aliases": [
+    "CRC"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "indication:pancreatic-cancer",
+   "name": "pancreatic cancer",
+   "kind": "indication",
+   "subtype": "oncology",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "indication:prostate-cancer",
+   "name": "prostate cancer",
+   "kind": "indication",
+   "subtype": "oncology",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "indication:ovarian-cancer",
+   "name": "ovarian cancer",
+   "kind": "indication",
+   "subtype": "oncology",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "indication:gastric-cancer",
+   "name": "gastric cancer",
+   "kind": "indication",
+   "subtype": "oncology",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "indication:bladder-cancer",
+   "name": "bladder cancer",
+   "kind": "indication",
+   "subtype": "oncology",
+   "aliases": [
+    "urothelial carcinoma"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "indication:melanoma",
+   "name": "melanoma",
+   "kind": "indication",
+   "subtype": "oncology",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "indication:hepatocellular-carcinoma",
+   "name": "hepatocellular carcinoma",
+   "kind": "indication",
+   "subtype": "oncology",
+   "aliases": [
+    "HCC"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "indication:glioblastoma",
+   "name": "glioblastoma",
+   "kind": "indication",
+   "subtype": "oncology",
+   "aliases": [
+    "GBM"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "indication:multiple-myeloma",
+   "name": "multiple myeloma",
+   "kind": "indication",
+   "subtype": "oncology",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "indication:acute-myeloid-leukaemia",
+   "name": "acute myeloid leukaemia",
+   "kind": "indication",
+   "subtype": "oncology",
+   "aliases": [
+    "AML",
+    "acute myeloid leukemia"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "indication:chronic-lymphocytic-leukaemia",
+   "name": "chronic lymphocytic leukaemia",
+   "kind": "indication",
+   "subtype": "oncology",
+   "aliases": [
+    "CLL"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "indication:diffuse-large-b-cell-lymphoma",
+   "name": "diffuse large B-cell lymphoma",
+   "kind": "indication",
+   "subtype": "oncology",
+   "aliases": [
+    "DLBCL"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "indication:obesity",
+   "name": "obesity",
+   "kind": "indication",
+   "subtype": "cardiometabolic",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "indication:type-2-diabetes",
+   "name": "type 2 diabetes",
+   "kind": "indication",
+   "subtype": "cardiometabolic",
+   "aliases": [
+    "T2D"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "indication:mash",
+   "name": "MASH",
+   "kind": "indication",
+   "subtype": "cardiometabolic",
+   "aliases": [
+    "NASH"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "indication:heart-failure",
+   "name": "heart failure",
+   "kind": "indication",
+   "subtype": "cardiometabolic",
+   "aliases": [
+    "HFpEF"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "indication:chronic-kidney-disease",
+   "name": "chronic kidney disease",
+   "kind": "indication",
+   "subtype": "cardiometabolic",
+   "aliases": [
+    "CKD"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "indication:hypertension",
+   "name": "hypertension",
+   "kind": "indication",
+   "subtype": "cardiometabolic",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "indication:attr-amyloidosis",
+   "name": "ATTR amyloidosis",
+   "kind": "indication",
+   "subtype": "cardiometabolic",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "indication:hypercholesterolaemia",
+   "name": "hypercholesterolaemia",
+   "kind": "indication",
+   "subtype": "cardiometabolic",
+   "aliases": [
+    "hypercholesterolemia"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "indication:ulcerative-colitis",
+   "name": "ulcerative colitis",
+   "kind": "indication",
+   "subtype": "immunology",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "indication:crohn's-disease",
+   "name": "Crohn's disease",
+   "kind": "indication",
+   "subtype": "immunology",
+   "aliases": [
+    "Crohns disease"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "indication:inflammatory-bowel-disease",
+   "name": "inflammatory bowel disease",
+   "kind": "indication",
+   "subtype": "immunology",
+   "aliases": [
+    "IBD"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "indication:rheumatoid-arthritis",
+   "name": "rheumatoid arthritis",
+   "kind": "indication",
+   "subtype": "immunology",
+   "aliases": [
+    "RA"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "indication:psoriasis",
+   "name": "psoriasis",
+   "kind": "indication",
+   "subtype": "immunology",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "indication:atopic-dermatitis",
+   "name": "atopic dermatitis",
+   "kind": "indication",
+   "subtype": "immunology",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "indication:systemic-lupus-erythematosus",
+   "name": "systemic lupus erythematosus",
+   "kind": "indication",
+   "subtype": "immunology",
+   "aliases": [
+    "lupus",
+    "SLE"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "indication:myasthenia-gravis",
+   "name": "myasthenia gravis",
+   "kind": "indication",
+   "subtype": "immunology",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "indication:asthma",
+   "name": "asthma",
+   "kind": "indication",
+   "subtype": "respiratory",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "indication:copd",
+   "name": "COPD",
+   "kind": "indication",
+   "subtype": "respiratory",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "indication:idiopathic-pulmonary-fibrosis",
+   "name": "idiopathic pulmonary fibrosis",
+   "kind": "indication",
+   "subtype": "respiratory",
+   "aliases": [
+    "IPF"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "indication:bronchiectasis",
+   "name": "bronchiectasis",
+   "kind": "indication",
+   "subtype": "respiratory",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "indication:alzheimer's-disease",
+   "name": "Alzheimer's disease",
+   "kind": "indication",
+   "subtype": "neuroscience",
+   "aliases": [
+    "Alzheimers disease"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "indication:parkinson's-disease",
+   "name": "Parkinson's disease",
+   "kind": "indication",
+   "subtype": "neuroscience",
+   "aliases": [
+    "Parkinsons disease"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "indication:amyotrophic-lateral-sclerosis",
+   "name": "amyotrophic lateral sclerosis",
+   "kind": "indication",
+   "subtype": "neuroscience",
+   "aliases": [
+    "ALS"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "indication:multiple-sclerosis",
+   "name": "multiple sclerosis",
+   "kind": "indication",
+   "subtype": "neuroscience",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "indication:huntington's-disease",
+   "name": "Huntington's disease",
+   "kind": "indication",
+   "subtype": "neuroscience",
+   "aliases": [
+    "Huntingtons disease"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "indication:major-depressive-disorder",
+   "name": "major depressive disorder",
+   "kind": "indication",
+   "subtype": "neuroscience",
+   "aliases": [
+    "MDD"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "indication:schizophrenia",
+   "name": "schizophrenia",
+   "kind": "indication",
+   "subtype": "neuroscience",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "indication:epilepsy",
+   "name": "epilepsy",
+   "kind": "indication",
+   "subtype": "neuroscience",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "indication:sickle-cell-disease",
+   "name": "sickle cell disease",
+   "kind": "indication",
+   "subtype": "rare",
+   "aliases": [
+    "SCD"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "indication:haemophilia-a",
+   "name": "haemophilia A",
+   "kind": "indication",
+   "subtype": "rare",
+   "aliases": [
+    "hemophilia A"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "indication:haemophilia-b",
+   "name": "haemophilia B",
+   "kind": "indication",
+   "subtype": "rare",
+   "aliases": [
+    "hemophilia B"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "indication:duchenne-muscular-dystrophy",
+   "name": "Duchenne muscular dystrophy",
+   "kind": "indication",
+   "subtype": "rare",
+   "aliases": [
+    "DMD"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "indication:cystic-fibrosis",
+   "name": "cystic fibrosis",
+   "kind": "indication",
+   "subtype": "rare",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "indication:spinal-muscular-atrophy",
+   "name": "spinal muscular atrophy",
+   "kind": "indication",
+   "subtype": "rare",
+   "aliases": [
+    "SMA"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "indication:geographic-atrophy",
+   "name": "geographic atrophy",
+   "kind": "indication",
+   "subtype": "ophthalmology",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "indication:diabetic-macular-oedema",
+   "name": "diabetic macular oedema",
+   "kind": "indication",
+   "subtype": "ophthalmology",
+   "aliases": [
+    "diabetic macular edema"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "indication:age-related-macular-degeneration",
+   "name": "age-related macular degeneration",
+   "kind": "indication",
+   "subtype": "ophthalmology",
+   "aliases": [
+    "AMD"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "modality:small-molecule",
+   "name": "small molecule",
+   "kind": "modality",
+   "subtype": "",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "modality:monoclonal-antibody",
+   "name": "monoclonal antibody",
+   "kind": "modality",
+   "subtype": "",
+   "aliases": [
+    "mAb"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "modality:bispecific-antibody",
+   "name": "bispecific antibody",
+   "kind": "modality",
+   "subtype": "",
+   "aliases": [
+    "bispecific"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "modality:antibody-drug-conjugate",
+   "name": "antibody-drug conjugate",
+   "kind": "modality",
+   "subtype": "",
+   "aliases": [
+    "ADC"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "modality:car-t",
+   "name": "CAR-T",
+   "kind": "modality",
+   "subtype": "",
+   "aliases": [
+    "CAR T-cell"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "modality:tcr-t",
+   "name": "TCR-T",
+   "kind": "modality",
+   "subtype": "",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "modality:mrna-vaccine",
+   "name": "mRNA vaccine",
+   "kind": "modality",
+   "subtype": "",
+   "aliases": [
+    "mRNA therapeutic"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "modality:sirna",
+   "name": "siRNA",
+   "kind": "modality",
+   "subtype": "",
+   "aliases": [
+    "RNAi"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "modality:antisense-oligonucleotide",
+   "name": "antisense oligonucleotide",
+   "kind": "modality",
+   "subtype": "",
+   "aliases": [
+    "ASO"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "modality:aav-gene-therapy",
+   "name": "AAV gene therapy",
+   "kind": "modality",
+   "subtype": "",
+   "aliases": [
+    "gene therapy"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "modality:base-editing",
+   "name": "base editing",
+   "kind": "modality",
+   "subtype": "",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "modality:prime-editing",
+   "name": "prime editing",
+   "kind": "modality",
+   "subtype": "",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "modality:crispr",
+   "name": "CRISPR",
+   "kind": "modality",
+   "subtype": "",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "modality:targeted-protein-degrader",
+   "name": "targeted protein degrader",
+   "kind": "modality",
+   "subtype": "",
+   "aliases": [
+    "PROTAC",
+    "degrader"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "modality:molecular-glue",
+   "name": "molecular glue",
+   "kind": "modality",
+   "subtype": "",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "modality:peptide-therapeutic",
+   "name": "peptide therapeutic",
+   "kind": "modality",
+   "subtype": "",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "modality:radioligand-therapy",
+   "name": "radioligand therapy",
+   "kind": "modality",
+   "subtype": "",
+   "aliases": [
+    "radiopharmaceutical"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "modality:allogeneic-cell-therapy",
+   "name": "allogeneic cell therapy",
+   "kind": "modality",
+   "subtype": "",
+   "aliases": [
+    "cell therapy"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "modality:oncolytic-virus",
+   "name": "oncolytic virus",
+   "kind": "modality",
+   "subtype": "",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "modality:microbiome-therapeutic",
+   "name": "microbiome therapeutic",
+   "kind": "modality",
+   "subtype": "",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "technology:artificial-intelligence",
+   "name": "artificial intelligence",
+   "kind": "technology",
+   "subtype": "",
+   "aliases": [
+    "AI",
+    "machine learning"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "technology:generative-chemistry",
+   "name": "generative chemistry",
+   "kind": "technology",
+   "subtype": "",
+   "aliases": [
+    "de novo design"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "technology:knowledge-graph",
+   "name": "knowledge graph",
+   "kind": "technology",
+   "subtype": "",
+   "aliases": [
+    "graph database"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "technology:multiomics",
+   "name": "multiomics",
+   "kind": "technology",
+   "subtype": "",
+   "aliases": [
+    "multi-omics"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "technology:single-cell-sequencing",
+   "name": "single-cell sequencing",
+   "kind": "technology",
+   "subtype": "",
+   "aliases": [
+    "scRNA-seq"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "technology:spatial-transcriptomics",
+   "name": "spatial transcriptomics",
+   "kind": "technology",
+   "subtype": "",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "technology:proteomics",
+   "name": "proteomics",
+   "kind": "technology",
+   "subtype": "",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "technology:metabolomics",
+   "name": "metabolomics",
+   "kind": "technology",
+   "subtype": "",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "technology:real-world-evidence",
+   "name": "real-world evidence",
+   "kind": "technology",
+   "subtype": "",
+   "aliases": [
+    "RWE",
+    "real-world data"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "technology:digital-twin",
+   "name": "digital twin",
+   "kind": "technology",
+   "subtype": "",
+   "aliases": [
+    "in silico trial"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "technology:federated-learning",
+   "name": "federated learning",
+   "kind": "technology",
+   "subtype": "",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "technology:laboratory-automation",
+   "name": "laboratory automation",
+   "kind": "technology",
+   "subtype": "",
+   "aliases": [
+    "self-driving lab"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "technology:dna-encoded-library",
+   "name": "DNA-encoded library",
+   "kind": "technology",
+   "subtype": "",
+   "aliases": [
+    "DEL"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "technology:cryo-em",
+   "name": "cryo-EM",
+   "kind": "technology",
+   "subtype": "",
+   "aliases": [],
+   "meta": {}
+  },
+  {
+   "id": "technology:molecular-dynamics",
+   "name": "molecular dynamics",
+   "kind": "technology",
+   "subtype": "",
+   "aliases": [
+    "free energy perturbation",
+    "FEP"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "technology:structure-activity-relationship",
+   "name": "structure-activity relationship",
+   "kind": "technology",
+   "subtype": "",
+   "aliases": [
+    "SAR"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "technology:biomarker-discovery",
+   "name": "biomarker discovery",
+   "kind": "technology",
+   "subtype": "",
+   "aliases": [
+    "companion diagnostic"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "technology:fair-data",
+   "name": "FAIR data",
+   "kind": "technology",
+   "subtype": "",
+   "aliases": [
+    "data harmonisation",
+    "data harmonization"
+   ],
+   "meta": {}
+  },
+  {
+   "id": "technology:drug-repurposing",
+   "name": "drug repurposing",
+   "kind": "technology",
+   "subtype": "",
+   "aliases": [
+    "drug repositioning"
+   ],
+   "meta": {}
+  }
+ ]
+}

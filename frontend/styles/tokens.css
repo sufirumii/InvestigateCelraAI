@@ -1,0 +1,75 @@
+/* ==========================================================================
+   InvestigateCelra — design tokens
+   White paper, violet accent, true-black editorial type.
+   ========================================================================== */
+
+:root {
+  /* --- surface ------------------------------------------------------ */
+  --paper:        #ffffff;
+  --paper-sunk:   #f7f6fb;
+  --paper-raised: #ffffff;
+  --paper-violet: #f4f1fe;
+
+  /* --- ink ---------------------------------------------------------- */
+  --ink:          #000000;
+  --ink-body:     #1e1e26;
+  --ink-soft:     #55545f;
+  --ink-faint:    #8b8996;
+
+  /* --- accent ------------------------------------------------------- */
+  --violet:       #6b4ee6;
+  --violet-deep:  #4a32b8;
+  --violet-soft:  #ede8fd;
+  --violet-line:  #d9d0fb;
+
+  /* --- semantic ----------------------------------------------------- */
+  --rise:         #0f7d55;
+  --rise-soft:    #e5f4ee;
+  --fall:         #bf2d47;
+  --fall-soft:    #fdeaed;
+  --amber:        #a4680b;
+  --amber-soft:   #fdf3e2;
+
+  /* --- structure ---------------------------------------------------- */
+  --rule:         #e6e4ef;
+  --rule-strong:  #cfccdd;
+  --shadow-card:  0 1px 2px rgba(24, 20, 50, .05), 0 8px 24px -16px rgba(24, 20, 50, .22);
+  --shadow-lift:  0 2px 6px rgba(24, 20, 50, .07), 0 18px 44px -22px rgba(24, 20, 50, .3);
+
+  /* --- type --------------------------------------------------------- */
+  --serif: "Newsreader", "Source Serif 4", Georgia, "Times New Roman", serif;
+  --sans:  "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --mono:  "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  --t-xs:   0.78rem;
+  --t-sm:   0.875rem;
+  --t-base: 1.0625rem;   /* 17px — reading floor for this product */
+  --t-md:   1.1875rem;
+  --t-lg:   1.4375rem;
+  --t-xl:   1.875rem;
+  --t-2xl:  2.5rem;
+  --t-3xl:  3.375rem;
+  --t-4xl:  4.5rem;
+
+  /* --- rhythm ------------------------------------------------------- */
+  --gap-1: 4px;
+  --gap-2: 8px;
+  --gap-3: 12px;
+  --gap-4: 18px;
+  --gap-5: 28px;
+  --gap-6: 44px;
+  --gap-7: 68px;
+
+  --rail: 232px;
+  --measure: 68ch;
+  --radius: 10px;
+  --radius-sm: 6px;
+
+  --ease: cubic-bezier(.22, .61, .36, 1);
+}
+
+/* Band colours are shared by chips, dials and rules. */
+.band-critical { --band: var(--fall);   --band-soft: var(--fall-soft); }
+.band-high     { --band: #b4560d;       --band-soft: #fdf0e4; }
+.band-moderate { --band: var(--violet); --band-soft: var(--violet-soft); }
+.band-routine  { --band: var(--ink-faint); --band-soft: #f2f1f6; }
